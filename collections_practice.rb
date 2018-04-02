@@ -40,9 +40,6 @@ end
 def add_s(array)
   arrayn = []
   array.each_with_index{|item, index|
-    
-    arrayn << "s"
-    
-  if index[1] 
-    
+    item += "s" unless index == 1
+    arrayn << item 
 end
