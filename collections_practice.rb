@@ -39,5 +39,5 @@ end
   
 def add_s(array)
   array.each_with_index.collect{|element, index|  element << "s"
-      element << array[1]}
+      index[1] << array[1]}
 end
