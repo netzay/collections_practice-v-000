@@ -41,5 +41,6 @@ def add_s(array)
   arrayn = []
   array.each_with_index{|item, index|
     item += "s" unless index == 1
-    arrayn << item 
+    arrayn << item}
+  arrayn
 end
