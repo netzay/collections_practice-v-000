@@ -38,6 +38,8 @@ def sum_array(array)
 end
   
 def add_s(array)
+  feet1 = array[1]
   array.collect{|element|  
   element << "s"}
+  array[1] = feet1
 end
