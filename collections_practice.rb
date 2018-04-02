@@ -42,5 +42,5 @@ def add_s(array)
   array.collect{|element|  
   element << "s"}
   array[1] = feet1
-  array
+  puts array[1]
 end
